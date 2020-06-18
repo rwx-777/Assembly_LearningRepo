@@ -19,3 +19,8 @@ The "stc" instrcution stands for set carry flag it is used together with "adc" b
                                                                                        
                                                                                      
 The "sbb" instruction will subtract -1 from the carry flag                                                                                      
+
+The "inc" instruction stands for increment and will add +1 to a value 
+
+The "dec" instruction stands for decrement and will subtract -1 from a value
+
