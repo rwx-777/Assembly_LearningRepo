@@ -13,3 +13,9 @@ The "add" adds some value to another value for instance: mov rax, 0x1           
 
 The "sub" subtracts a value from another value.
 
+The "stc" instrcution stands for set carry flag it is used together with "adc" both add +1 in this example: mov rax, 0x5      --> rax 0x7
+                                                                                                stc
+                                                                                                adc rax, 0x1
+                                                                                       
+                                                                                     
+The "sbb" instruction will subtract -1 from the carry flag                                                                                      
