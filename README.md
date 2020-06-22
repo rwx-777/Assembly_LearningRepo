@@ -31,3 +31,12 @@ The "jbe" instruction stands for jump if CF is equal to 1 or ZF is equal to 1
 
 The "jns" instruction stands for jump if SF is equal to 0
 
+Bit-shifting operations:
+- arithmetic shift operation
+- logic operation
+- rotate operation
+
+There are two types of arithmetic shift: shift arithmetic left (SAL) & shift arithmetic right (SAR)
+
+
+
