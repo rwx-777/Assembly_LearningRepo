@@ -24,3 +24,6 @@ The "inc" instruction stands for increment and will add +1 to a value
 
 The "dec" instruction stands for decrement and will subtract -1 from a value
 
+The "jb" instruction will jump to a section in the code if something is 1
+
+The "jbe" instruction stands for jump if below or equal 
