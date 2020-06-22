@@ -1,5 +1,6 @@
 # Assembly_LearningRepo
 
+FYI: functions in assembly are called "Procedures"
 
 The "mov" instruction is used to move data between registers, and between registers and memory!
 
