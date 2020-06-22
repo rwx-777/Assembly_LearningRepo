@@ -38,5 +38,5 @@ Bit-shifting operations:
 
 There are two types of arithmetic shift: shift arithmetic left (SAL) & shift arithmetic right (SAR)
 
-
+There are two types of logical shift: logical shift left (SHL) & logical shift right (SHR), SHL is excatly like SAL
 
