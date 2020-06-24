@@ -41,3 +41,12 @@ There are two types of arithmetic shift: shift arithmetic left (SAL) & shift ari
 There are two types of logical shift: logical shift left (SHL) & logical shift right (SHR), SHL is excatly like SAL
 
 There are two types of rotate operations, rotate right (ROR) & rotate left (ROL)
+
+
+Debugging
+
+Using gdb Linux:
+$nasm -felf64 hello_world.nasm -o hello.o
+$ld hello.o hello
+$gdb ./hello
+
