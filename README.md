@@ -47,6 +47,6 @@ Debugging
 
 Using gdb Linux:
 $nasm -felf64 hello_world.nasm -o hello.o
-$ld hello.o hello
+$ld hello.o -o hello
 $gdb ./hello
 
