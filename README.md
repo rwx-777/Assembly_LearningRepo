@@ -42,6 +42,15 @@ There are two types of logical shift: logical shift left (SHL) & logical shift r
 
 There are two types of rotate operations, rotate right (ROR) & rotate left (ROL)
 
+#Binary Obfuscation
+Data can be assembled on the stack and used the same works for code.
+Example:
+push ...
+push ...
+push ...
+
+To convert ASCII text into hex to use in your code try this command on unix systems
+$ echo "text blabla" | od -x
 
 # Debugging
 
