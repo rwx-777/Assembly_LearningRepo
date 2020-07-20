@@ -31,7 +31,7 @@ The "jbe" instruction stands for jump if CF is equal to 1 or ZF is equal to 1
 
 The "jns" instruction stands for jump if SF is equal to 0
 
-# Bit-shifting operations:
+## Bit-shifting operations:
 - arithmetic shift operation
 - logic operation
 - rotate operation
@@ -42,7 +42,7 @@ There are two types of logical shift: logical shift left (SHL) & logical shift r
 
 There are two types of rotate operations, rotate right (ROR) & rotate left (ROL)
 
-# Binary Obfuscation
+## Binary Obfuscation
 Data can be assembled on the stack and used the same works for code.
 Example:
 push ...
@@ -52,13 +52,13 @@ push ...
 To convert ASCII text into hex to use in your code try this command on unix systems
 $ echo "text blabla" | od -x
 
-# Debugging
+## Debugging
 
 Using gdb Linux:
-
+```
 $nasm -felf64 hello_world.nasm -o hello.o
 
 $ld hello.o -o hello
 
 $gdb ./hello
-
+```
